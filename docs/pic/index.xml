@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pics on Neon Sphinx&#39;s Website</title>
+    <link>https://neon-sphinx.github.io/pic/</link>
+    <description>Recent content in Pics on Neon Sphinx&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
+    <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
+    <copyright>© 2026 Neon Sphinx</copyright>
+    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate><atom:link href="https://neon-sphinx.github.io/pic/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sphinx!</title>
+      <link>https://neon-sphinx.github.io/pic/my-first-post/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>https://neon-sphinx.github.io/pic/my-first-post/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
