@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neon-sphinx.github.io/sitemap.xml
