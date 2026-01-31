@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Neon Sphinx&#39;s Website</title>
+    <link>https://neon-sphinx.github.io/tags/mac/</link>
+    <description>Recent content in Mac on Neon Sphinx&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
+    <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
+    <copyright>© 2026 Neon Sphinx</copyright>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>如何将python文件转化为mac可执行文件？</title>
+      <link>https://neon-sphinx.github.io/blog/2026-01-31-%E5%A6%82%E4%BD%95%E5%B0%86python%E6%96%87%E4%BB%B6%E8%BD%AC%E5%8C%96%E4%B8%BAmac%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>https://neon-sphinx.github.io/blog/2026-01-31-%E5%A6%82%E4%BD%95%E5%B0%86python%E6%96%87%E4%BB%B6%E8%BD%AC%E5%8C%96%E4%B8%BAmac%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
