@@ -9,14 +9,34 @@
     <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
     <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
     <copyright>© 2026 Neon Sphinx</copyright>
-    <lastBuildDate>Sat, 31 Jan 2026 23:11:41 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/videos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/videos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Spaceship</title>
+      <link>https://neon-sphinx.github.io/videos/spaceship/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>https://neon-sphinx.github.io/videos/spaceship/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sphinx</title>
+      <link>https://neon-sphinx.github.io/videos/sphinx/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>https://neon-sphinx.github.io/videos/sphinx/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>让我们说中文</title>
-      <link>https://neon-sphinx.github.io/videos/my-first-post/</link>
+      <link>https://neon-sphinx.github.io/videos/saychinese/</link>
       <pubDate>Sat, 31 Jan 2026 23:11:41 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/my-first-post/</guid>
+      <guid>https://neon-sphinx.github.io/videos/saychinese/</guid>
       <description></description>
       
     </item>
