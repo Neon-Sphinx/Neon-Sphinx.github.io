@@ -2,21 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI-Generated Games on Neon Sphinx&#39;s Website</title>
-    <link>https://neon-sphinx.github.io/games/</link>
+    <link>http://localhost:1313/games/</link>
     <description>Recent content in AI-Generated Games on Neon Sphinx&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
     <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
     <copyright>© 2026 Neon Sphinx</copyright>
-    <lastBuildDate>Sat, 31 Jan 2026 23:11:52 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/games/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Chiikawa讨伐大作战</title>
+      <link>http://localhost:1313/games/chiikawa%E8%AE%A8%E4%BC%90%E5%A4%A7%E4%BD%9C%E6%88%98/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>http://localhost:1313/games/chiikawa%E8%AE%A8%E4%BC%90%E5%A4%A7%E4%BD%9C%E6%88%98/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Chiikawa美食家</title>
-      <link>https://neon-sphinx.github.io/games/my-first-post/</link>
+      <link>http://localhost:1313/games/chiikawa%E7%BE%8E%E9%A3%9F%E5%AE%B6/</link>
       <pubDate>Sat, 31 Jan 2026 23:11:52 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/games/my-first-post/</guid>
+      <guid>http://localhost:1313/games/chiikawa%E7%BE%8E%E9%A3%9F%E5%AE%B6/</guid>
       <description></description>
       
     </item>
