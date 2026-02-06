@@ -13,12 +13,12 @@
     
     <item>
       <title>Sphinx!</title>
-      <link>https://neon-sphinx.github.io/pic/my-first-post/</link>
+      <link>https://neon-sphinx.github.io/pic/pic1/</link>
       <pubDate>Sat, 31 Jan 2026 23:11:13 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/pic/my-first-post/</guid>
+      <guid>https://neon-sphinx.github.io/pic/pic1/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/pic/pic1/feature.png" />
     </item>
     
   </channel>

@@ -328,7 +328,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/hachiware/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/hachiware/feature.png" />
     </item>
     
     <item>
@@ -338,7 +338,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/sphinx2/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/sphinx2/feature.png" />
     </item>
     
     <item>
@@ -362,11 +362,41 @@
     </item>
     
     <item>
+      <title>[Repost] 这 6 个超神的 SKills，在 GitHub 上杀疯了</title>
+      <link>https://neon-sphinx.github.io/posts/%E8%BF%99-6-%E4%B8%AA%E8%B6%85%E7%A5%9E%E7%9A%84-skills%E5%9C%A8-github-%E4%B8%8A%E6%9D%80%E7%96%AF%E4%BA%86/</link>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>https://neon-sphinx.github.io/posts/%E8%BF%99-6-%E4%B8%AA%E8%B6%85%E7%A5%9E%E7%9A%84-skills%E5%9C%A8-github-%E4%B8%8A%E6%9D%80%E7%96%AF%E4%BA%86/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>[Repost] 1000 万人围观的 Claude Code 创始人 0% 手写代码工作流更新了（附我的实战心得）</title>
+      <link>https://neon-sphinx.github.io/posts/1000-%E4%B8%87%E4%BA%BA%E5%9B%B4%E8%A7%82%E7%9A%84-claude-code-%E5%88%9B%E5%A7%8B%E4%BA%BA-0-%E6%89%8B%E5%86%99%E4%BB%A3%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%9B%B4%E6%96%B0%E4%BA%86%E9%99%84%E6%88%91%E7%9A%84%E5%AE%9E%E6%88%98%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>https://neon-sphinx.github.io/posts/1000-%E4%B8%87%E4%BA%BA%E5%9B%B4%E8%A7%82%E7%9A%84-claude-code-%E5%88%9B%E5%A7%8B%E4%BA%BA-0-%E6%89%8B%E5%86%99%E4%BB%A3%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%9B%B4%E6%96%B0%E4%BA%86%E9%99%84%E6%88%91%E7%9A%84%E5%AE%9E%E6%88%98%E5%BF%83%E5%BE%97/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>[Repost] Nature开年重磅：2026年将改变世界的七大技术</title>
       <link>https://neon-sphinx.github.io/posts/nature%E5%BC%80%E5%B9%B4%E9%87%8D%E7%A3%852026%E5%B9%B4%E5%B0%86%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E7%9A%84%E4%B8%83%E5%A4%A7%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/posts/nature%E5%BC%80%E5%B9%B4%E9%87%8D%E7%A3%852026%E5%B9%B4%E5%B0%86%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E7%9A%84%E4%B8%83%E5%A4%A7%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>[Repost] 谷歌疯了！竟然将最先进 AI UI 工具无偿提供免费使用！</title>
+      <link>https://neon-sphinx.github.io/posts/%E8%B0%B7%E6%AD%8C%E7%96%AF%E4%BA%86%E7%AB%9F%E7%84%B6%E5%B0%86%E6%9C%80%E5%85%88%E8%BF%9B-ai-ui-%E5%B7%A5%E5%85%B7%E6%97%A0%E5%81%BF%E6%8F%90%E4%BE%9B%E5%85%8D%E8%B4%B9%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>https://neon-sphinx.github.io/posts/%E8%B0%B7%E6%AD%8C%E7%96%AF%E4%BA%86%E7%AB%9F%E7%84%B6%E5%B0%86%E6%9C%80%E5%85%88%E8%BF%9B-ai-ui-%E5%B7%A5%E5%85%B7%E6%97%A0%E5%81%BF%E6%8F%90%E4%BE%9B%E5%85%8D%E8%B4%B9%E4%BD%BF%E7%94%A8/</guid>
       <description></description>
       
     </item>
@@ -378,7 +408,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/spaceship/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/spaceship/feature.png" />
     </item>
     
     <item>
@@ -388,7 +418,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/sphinx/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/sphinx/feature.png" />
     </item>
     
     <item>
@@ -468,17 +498,17 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/saychinese/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/saychinese/feature.png" />
     </item>
     
     <item>
       <title>Sphinx!</title>
-      <link>https://neon-sphinx.github.io/pic/my-first-post/</link>
+      <link>https://neon-sphinx.github.io/pic/pic1/</link>
       <pubDate>Sat, 31 Jan 2026 23:11:13 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/pic/my-first-post/</guid>
+      <guid>https://neon-sphinx.github.io/pic/pic1/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/pic/pic1/feature.png" />
     </item>
     
     <item>
@@ -777,6 +807,16 @@
       <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/posts/2026-%E6%9C%80%E6%96%B0claude-skill-%E4%BB%93%E5%BA%93%E5%90%88%E9%9B%86/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>[Repost] OpenSpec 功能详解：5 分钟搞懂 AI 编程的&#34;规范驱动&#34;核心</title>
+      <link>https://neon-sphinx.github.io/posts/openspec-%E5%8A%9F%E8%83%BD%E8%AF%A6%E8%A7%A35-%E5%88%86%E9%92%9F%E6%90%9E%E6%87%82-ai-%E7%BC%96%E7%A8%8B%E7%9A%84%E8%A7%84%E8%8C%83%E9%A9%B1%E5%8A%A8%E6%A0%B8%E5%BF%83/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
+      <guid>https://neon-sphinx.github.io/posts/openspec-%E5%8A%9F%E8%83%BD%E8%AF%A6%E8%A7%A35-%E5%88%86%E9%92%9F%E6%90%9E%E6%87%82-ai-%E7%BC%96%E7%A8%8B%E7%9A%84%E8%A7%84%E8%8C%83%E9%A9%B1%E5%8A%A8%E6%A0%B8%E5%BF%83/</guid>
       <description></description>
       
     </item>

@@ -18,7 +18,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/hachiware/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/hachiware/feature.png" />
     </item>
     
     <item>
@@ -28,7 +28,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/sphinx2/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/sphinx2/feature.png" />
     </item>
     
     <item>
@@ -38,7 +38,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/spaceship/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/spaceship/feature.png" />
     </item>
     
     <item>
@@ -48,7 +48,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/sphinx/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/sphinx/feature.png" />
     </item>
     
     <item>
@@ -58,7 +58,7 @@
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
       <guid>https://neon-sphinx.github.io/videos/saychinese/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/saychinese/feature.png" />
     </item>
     
   </channel>
