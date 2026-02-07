@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI-Generated Music on Neon Sphinx&#39;s Website</title>
-    <link>http://localhost:1313/music/</link>
+    <link>https://neon-sphinx.github.io/music/</link>
     <description>Recent content in AI-Generated Music on Neon Sphinx&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
     <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
     <copyright>© 2026 Neon Sphinx</copyright>
-    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/music/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/music/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Steam and Strings</title>
-      <link>http://localhost:1313/music/album-1/</link>
+      <link>https://neon-sphinx.github.io/music/album-1/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>http://localhost:1313/music/album-1/</guid>
+      <guid>https://neon-sphinx.github.io/music/album-1/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/music/album-1/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/music/album-1/feature.png" />
     </item>
     
     <item>
       <title>Sugar in the Air</title>
-      <link>http://localhost:1313/music/album-2/</link>
+      <link>https://neon-sphinx.github.io/music/album-2/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>http://localhost:1313/music/album-2/</guid>
+      <guid>https://neon-sphinx.github.io/music/album-2/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/music/album-2/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/music/album-2/feature.png" />
     </item>
     
   </channel>
