@@ -3,7 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://neon-sphinx.github.io/posts/%E5%88%9A%E5%88%9A%E8%B0%B7%E6%AD%8C-deep-think%E9%87%8D%E5%9B%9E%E5%B7%85%E5%B3%B0openai-%E9%A6%96%E6%AC%A1%E6%8A%9B%E5%BC%83%E8%8B%B1%E4%BC%9F%E8%BE%BE/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/blog/ai%E6%97%B6%E4%BB%A3%E5%86%B3%E7%AD%96%E7%9A%84%E6%9C%BA%E4%BC%9A%E6%88%90%E6%9C%AC%E5%A4%A7%E5%A4%A7%E6%8F%90%E9%AB%98/</loc>
+    <lastmod>2026-02-13T13:35:23+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/blog/ai%E6%97%B6%E4%BB%A3%E6%9C%89%E4%BB%80%E4%B9%88%E4%B8%8D%E6%98%AF%E5%BB%89%E4%BB%B7%E7%9A%84/</loc>
+    <lastmod>2026-02-13T13:12:59+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/1%E7%BE%8E%E5%85%83%E6%97%B6%E8%96%AA%E8%BF%99%E6%89%8D%E6%98%AF%E6%89%93%E5%B7%A5%E4%BA%BA%E7%9A%84%E6%A2%A6%E4%B8%AD%E6%83%85%E6%A8%A1/</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/16%E4%B8%AA%E6%9C%88%E4%BC%B0%E5%80%BC%E7%A0%B410%E4%BA%BF%E7%BE%8E%E5%85%83%E4%BC%97%E5%A4%9Avc%E6%8A%BC%E6%B3%A8%E4%B8%80%E4%B8%AA%E6%96%B0%E5%93%81%E7%B1%BBai%E5%86%99%E4%BB%A3%E7%A0%81%E8%B6%8A%E5%BF%AB%E8%BF%99%E4%B8%AA%E9%97%AE%E9%A2%98%E8%B6%8A%E8%87%B4%E5%91%BD/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E5%A4%A7%E4%BA%8B%E6%AD%A3%E5%9C%A8%E5%8F%91%E7%94%9F%E4%BD%86%E7%BB%9D%E5%A4%A7%E5%A4%9A%E6%95%B0%E4%BA%BA%E8%BF%98%E6%B2%A1%E6%9C%89%E6%84%8F%E8%AF%86%E5%88%B0/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://neon-sphinx.github.io/videos/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/videos/usagi/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/93k%E6%98%9Fgithub%E9%A1%B9%E7%9B%AE%E7%8B%A0%E4%BA%BA%E8%B0%B7%E6%AD%8C%E9%AB%98%E7%BA%A7ai%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E5%85%AC%E5%BC%80%E5%86%85%E9%83%A8%E6%9E%84%E5%BB%BAagent%E5%BF%83%E5%BE%97%E8%BF%87%E5%8E%BB%E5%8D%81%E5%B9%B4%E6%8A%80%E8%83%BD%E8%A1%A1%E9%87%8F%E6%A0%87%E5%87%86%E5%B7%B2%E6%AF%AB%E6%97%A0%E4%BB%B7%E5%80%BC2026%E6%9C%80%E4%BC%98%E7%A7%80%E7%9A%84%E5%BC%80%E5%8F%91%E8%80%85%E6%9B%B4%E5%83%8F%E6%98%AF%E5%AF%BC%E6%BC%94/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/github-%E4%B8%8A%E7%8B%82%E6%8F%BD-1.3-%E4%B8%87-star%E6%B8%AF%E5%A4%A7%E5%BC%80%E6%BA%90%E7%9A%84%E8%BD%BB%E9%87%8F%E7%89%88-clawdbot/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E5%85%A8%E7%90%8327-%E5%AE%B6ai-%E7%A0%94%E7%A9%B6%E6%9C%BA%E6%9E%84%E8%81%94%E5%90%88%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F%E6%80%A7%E7%BB%BC%E8%BF%B0%E5%9F%BA%E7%A1%80%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%8B%E5%8D%8A%E5%9C%BA%E7%9A%84%E7%9C%9F%E6%AD%A3%E6%88%98%E5%9C%BA%E4%B8%8D%E6%98%AF%E6%8E%A8%E7%90%86%E8%80%8C%E6%98%AF%E8%AE%B0%E5%BF%86/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E6%B5%B7%E5%A4%96%E9%A1%B6%E7%BA%A7%E9%A3%8E%E6%8A%95a16z%E5%85%B3%E4%BA%8Eai%E5%B8%82%E5%9C%BA%E7%9A%84%E6%9C%80%E6%96%B0%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E8%B0%B7%E6%AD%8Cchrome%E6%B7%B1%E5%A4%9C%E7%88%86%E6%9B%B4agent%E4%B8%8D%E7%94%A8%E8%A3%85%E4%BA%BA%E4%BA%86%E5%89%8D%E7%AB%AF%E6%9C%80%E5%90%8E%E9%98%B2%E7%BA%BF%E5%B4%A9%E4%BA%86/</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E9%87%8C%E7%A8%8B%E7%A2%91%E6%97%B6%E5%88%BB100b%E6%89%A9%E6%95%A3%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E8%B7%91%E5%87%BA892-tokens-%E7%A7%92ai%E7%9A%84%E5%8F%A6%E4%B8%80%E6%9D%A1%E8%B7%AF%E8%B5%B0%E9%80%9A%E4%BA%86/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -15,14 +105,44 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://neon-sphinx.github.io/</loc>
-    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+    <loc>https://neon-sphinx.github.io/posts/%E4%B8%80%E4%BA%BA%E5%B9%B2%E7%BF%BB%E6%89%80%E6%9C%89%E5%A4%A7%E5%8E%82openclaw%E7%A1%85%E8%B0%B7%E5%B0%81%E7%A5%9E%E5%BC%80%E5%8F%91%E8%80%85%E4%B8%80%E5%A4%9C%E7%88%86%E8%B5%9A%E4%B8%A4%E4%BA%BF/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/anthropic%E5%91%98%E5%B7%A5%E6%95%88%E7%8E%87%E7%A2%BE%E5%8E%8B%E8%B0%B7%E6%AD%8C1000%E5%80%8D%E6%89%93%E5%B7%A5%E4%BA%BA%E6%83%B3%E8%BF%9B%E5%BF%85%E9%A1%BB%E5%85%88%E6%9D%80%E6%AD%BB%E8%87%AA%E6%88%91/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/google-%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A83-%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0-500-%E8%A1%8C%E6%AD%A3%E5%88%99/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E5%85%A8%E7%BD%91%E6%9C%80%E8%AF%A6%E7%BB%86%E7%9A%84codex%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%8E%A9%E8%BD%ACvibe-coding/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E8%AD%A6%E9%92%9F%E6%95%B2%E5%93%8Dhinton-%E6%9C%80%E6%96%B0%E4%B8%87%E5%AD%97%E6%BC%94%E8%AE%B2%E6%80%92%E6%80%BC%E4%B9%94%E5%A7%86%E6%96%AF%E5%9F%BA%E5%AE%9A%E4%B9%89%E4%B8%8D%E6%9C%BD%E8%AE%A1%E7%AE%97%E6%8F%AD%E7%A4%BA%E4%BA%BA%E7%B1%BB%E5%94%AF%E4%B8%80%E7%94%9F%E8%B7%AF/</loc>
+    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://neon-sphinx.github.io/videos/hachiware2/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E6%9C%A8%E5%A4%B4%E5%A7%902026%E9%A2%84%E8%A8%80%E6%9C%AA%E6%9D%A510%E5%B9%B4%E6%99%AE%E9%80%9A%E4%BA%BA%E6%9A%B4%E5%AF%8C%E7%9A%84%E6%9C%80%E5%90%8E%E6%9C%BA%E4%BC%9A/</loc>
+    <lastmod>2026-02-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -35,6 +155,12 @@
   <url>
     <loc>https://neon-sphinx.github.io/blog/%E5%8F%AA%E6%9C%89%E5%8A%AA%E5%8A%9B%E9%99%A4%E8%8D%89%E6%89%8D%E8%83%BD%E5%90%83%E6%8B%89%E9%9D%A2/</loc>
     <lastmod>2026-02-07T16:39:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E5%A0%AA%E6%AF%94chatgpt%E6%97%B6%E5%88%BBsemianalysis%E6%B7%B1%E5%BA%A6%E8%A7%A3%E8%AF%BBclaude-code%E5%B0%86%E6%98%AFai-%E6%99%BA%E8%83%BD%E4%BD%93%E7%9A%84%E8%BD%AC%E6%8A%98%E7%82%B9/</loc>
+    <lastmod>2026-02-07T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -57,6 +183,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://neon-sphinx.github.io/posts/nature-%E9%87%8D%E7%A3%85%E5%8F%91%E5%B8%83%E4%BA%BA%E7%B1%BB%E4%B8%80%E7%9C%BC%E9%A1%BF%E6%82%9F%E7%9A%84-one-shot-%E5%AD%A6%E4%B9%A0%E6%9C%BA%E5%88%B6%E5%8F%AF%E8%83%BD%E6%98%AFai-%E7%9A%84%E4%B8%8B%E4%B8%80%E6%AC%A1%E8%8C%83%E5%BC%8F%E9%9D%A9%E5%91%BD/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://neon-sphinx.github.io/blog/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8ai%E4%BD%9C%E4%B8%BA%E8%87%AA%E7%9C%81%E5%B7%A5%E5%85%B7%E4%BB%A5%E5%AE%9E%E7%8E%B0%E8%87%AA%E6%88%91%E6%8F%90%E5%8D%87/</loc>
     <lastmod>2026-02-05T16:45:53+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -65,6 +197,18 @@
   <url>
     <loc>https://neon-sphinx.github.io/blog/%E5%8F%8C%E8%AF%AD-%E6%B0%9B%E5%9B%B4%E5%92%96%E5%95%A1%E5%8E%85%E7%88%B5%E5%A3%AB%E4%B8%89%E9%87%8D%E5%A5%8F/</loc>
     <lastmod>2026-02-05T16:44:24+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/github%E6%B7%B1%E5%A4%9C%E5%BC%95%E7%88%86%E6%9C%80%E5%BC%BAclaude-&#43;-codex%E5%90%88%E4%BD%93%E5%85%A8%E7%90%831.8%E4%BA%BF%E7%A0%81%E5%86%9C%E4%B8%80%E5%A4%9C%E8%A7%A3%E6%94%BE/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6ai-agent-%E7%AE%A1%E7%90%86%E4%B8%80%E4%B8%AA%E5%BC%80%E5%8F%91%E8%80%85%E5%A6%82%E4%BD%95%E6%8C%87%E6%8C%A5%E4%B8%80%E6%94%AF%E8%99%9A%E6%8B%9F%E5%9B%A2%E9%98%9F/</loc>
+    <lastmod>2026-02-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -291,12 +435,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://neon-sphinx.github.io/posts/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://neon-sphinx.github.io/posts/1000-%E4%B8%87%E4%BA%BA%E5%9B%B4%E8%A7%82%E7%9A%84-claude-code-%E5%88%9B%E5%A7%8B%E4%BA%BA-0-%E6%89%8B%E5%86%99%E4%BB%A3%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%9B%B4%E6%96%B0%E4%BA%86%E9%99%84%E6%88%91%E7%9A%84%E5%AE%9E%E6%88%98%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -459,6 +597,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://neon-sphinx.github.io/posts/science--%E8%B0%81%E5%9C%A8%E5%88%A9%E7%94%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%BF%9B%E8%A1%8C%E7%BC%96%E7%A8%8B%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E5%85%A8%E7%90%83%E6%89%A9%E6%95%A3%E5%92%8C%E5%BD%B1%E5%93%8D/</loc>
+    <lastmod>2026-01-29T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://neon-sphinx.github.io/posts/%E5%AE%9E%E6%B5%8B-prismopenai-%E7%9A%84%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9/</loc>
     <lastmod>2026-01-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -597,6 +741,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://neon-sphinx.github.io/posts/dan-koe%E5%A6%82%E6%9E%9C%E6%88%91%E5%9C%A8-2026-%E5%B9%B4%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%88%91%E4%BC%9A%E6%80%8E%E6%A0%B7%E6%90%AD%E5%BB%BA%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8/</loc>
+    <lastmod>2026-01-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://neon-sphinx.github.io/posts/%E8%B0%B7%E6%AD%8C%E8%B5%84%E6%B7%B1%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E7%BB%99%E5%87%BA%E7%9A%84nano-banana-pro%E5%8D%81%E4%B8%AA%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2026-01-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -615,8 +765,20 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://neon-sphinx.github.io/posts/5000%E5%AD%97%E6%96%B9%E6%B3%95%E8%AE%BA%E4%BB%8E%E9%9B%B6%E6%8E%8C%E6%8F%A1-claude-skill-%E6%92%B0%E5%86%99%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://neon-sphinx.github.io/posts/welcome-to-gas-town.-happy-new/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://neon-sphinx.github.io/posts/%E7%82%B8%E8%A3%82mit%E7%A0%94%E7%A9%B6%E5%8F%91%E7%8E%B0%E4%BD%BF%E7%94%A8ai%E4%BC%9A%E5%AF%BC%E8%87%B4%E8%AE%A4%E7%9F%A5%E5%80%BA%E5%8A%A1%E9%BB%84%E4%BB%81%E5%8B%8B%E6%B2%89%E9%BB%98%E4%BA%86%E5%A5%A5%E7%89%B9%E6%9B%BC%E7%A0%B4%E9%98%B2%E4%BA%86/</loc>
+    <lastmod>2025-12-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

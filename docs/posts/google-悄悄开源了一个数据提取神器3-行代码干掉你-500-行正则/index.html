@@ -1,0 +1,1588 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"><head>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="en">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>[Repost] Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则 &middot; Neon Sphinx&#39;s Website</title>
+    <meta name="title" content="[Repost] Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则 &middot; Neon Sphinx&#39;s Website">
+  
+
+  
+  
+  
+    <meta name="keywords" content="Github,Google,">
+  
+  
+  
+  <link rel="canonical" href="https://neon-sphinx.github.io/posts/google-%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A83-%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0-500-%E8%A1%8C%E6%AD%A3%E5%88%99/">
+  
+
+  
+  
+    <meta name="author" content="Neon Sphinx">
+  
+  
+    
+      
+        
+          <link href="https://github.com/Neon-Sphinx/Neon-Sphinx.github.io" rel="me">
+        
+      
+    
+  
+
+  
+  <meta property="og:url" content="https://neon-sphinx.github.io/posts/google-%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A83-%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0-500-%E8%A1%8C%E6%AD%A3%E5%88%99/">
+  <meta property="og:site_name" content="Neon Sphinx&#39;s Website">
+  <meta property="og:title" content="[Repost] Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-02-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-09T00:00:00+00:00">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Google">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="[Repost] Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.b5368c8f64c443a2db3640baffb642b259c300b1b22c920ca173c246129a987e618d2ce489d86098e3470c351836906c95f0e0b44fd3514bb75ca118f8652640.css"
+    integrity="sha512-tTaMj2TEQ6LbNkC6/7ZCslnDALGyLJIMoXPCRhKamH5hjSzkidhgmONHDDUYNpBslfDgtE/TUUu3XKEY&#43;GUmQA==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/lib/zoom/zoom.min.umd.a527109b68c082a70f3697716dd72a9d5aa8b545cf800cecbbc7399f2ca6f6e0ce3e431f2062b48bbfa47c9ea42822714060bef309be073f49b9c0e30d318d7b.js" integrity="sha512-pScQm2jAgqcPNpdxbdcqnVqotUXPgAzsu8c5nyym9uDOPkMfIGK0i7&#43;kfJ6kKCJxQGC&#43;8wm&#43;Bz9JucDjDTGNew=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.0e2e7ce1e319db5369cd4badb8265de52c78d08df54617521bdac9c8cd335eea6133a82c83f9cb19baf67b8133335130e7e8ff7cfeaf7171016648dbf5a0578a.js"
+      integrity="sha512-Di584eMZ21NpzUutuCZd5Sx40I31RhdSG9rJyM0zXuphM6gsg/nLGbr2e4EzM1Ew5&#43;j/fP6vcXEBZkjb9aBXig=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "AI-Related Reposts",
+    "name": "[Repost] Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则",
+    "headline": "[Repost] Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则",
+    
+    "inLanguage": "en",
+    "url" : "https://neon-sphinx.github.io/posts/google-%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A83-%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0-500-%E8%A1%8C%E6%AD%A3%E5%88%99/",
+    "author" : {
+      "@type": "Person",
+      "name": "Neon Sphinx"
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-02-09T00:00:00\u002b00:00",
+    "datePublished": "2026-02-09T00:00:00\u002b00:00",
+    
+    "dateModified": "2026-02-09T00:00:00\u002b00:00",
+    
+    "keywords": ["Github","Google"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "597"
+  }]
+  </script>
+
+
+
+  
+  
+    
+
+
+
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral bf-scrollbar">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    
+    
+      <div class="main-menu flex items-center w-full gap-2 p-1 pl-0">
+  
+    
+    
+      <div>
+        <a href="/" class="flex">
+          <span class="sr-only">Neon Sphinx&rsquo;s Website</span>
+          
+            <img
+              src="/img/logo.png"
+              width="400"
+              height="400"
+              class="logo max-h-20 max-w-20 object-scale-down object-left nozoom"
+              alt="">
+          
+        </a>
+      </div>
+    
+  
+  
+    <a href="/" class="text-base font-medium truncate min-w-0 shrink">
+      Neon Sphinx&rsquo;s Website
+    </a>
+  
+  <div class="flex items-center ms-auto">
+    <div class="hidden md:flex">
+      <nav class="flex items-center gap-x-5 h-12">
+  
+    
+      
+  
+    <a
+      href="/blog/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Blog"
+      title="AI-Generated Blog">
+      
+        <span class="mr-1">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"/></svg>
+</span>
+        </span>
+      
+      
+        <span class="text-base font-medium break-normal">
+          Blog
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/pic/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Pictures"
+      title="AI-Generated Pictures">
+      
+        <span class="mr-1">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM323.8 202.5c-4.5-6.6-11.9-10.5-19.8-10.5s-15.4 3.9-19.8 10.5l-87 127.6L170.7 297c-4.6-5.7-11.5-9-18.7-9s-14.2 3.3-18.7 9l-64 80c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6h96 32H424c8.9 0 17.1-4.9 21.2-12.8s3.6-17.4-1.4-24.7l-120-176zM112 192c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48z"/></svg></span>
+        </span>
+      
+      
+        <span class="text-base font-medium break-normal">
+          Pictures
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/music/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Music"
+      title="AI-Generated Music">
+      
+        <span class="mr-1">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<path fill="currentColor" d="M511.1 367.1c0 44.18-42.98 80-95.1 80s-95.1-35.82-95.1-79.1c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32.01 4.898V148.1L192 224l-.0023 208.1C191.1 476.2 149 512 95.1 512S0 476.2 0 432c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32 4.898V126.5c0-12.97 10.06-26.63 22.41-30.52l319.1-94.49C472.1 .6615 477.3 0 480 0c17.66 0 31.97 14.34 32 31.99L511.1 367.1z"/></svg></span>
+        </span>
+      
+      
+        <span class="text-base font-medium break-normal">
+          Music
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/game/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Games"
+      title="AI-Generated Games">
+      
+        <span class="mr-1">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+<path fill="currentColor" d="M50.8 452.1L19.2 477.4c-2.1 1.7-4.7 2.6-7.4 2.6C5.3 480 0 474.7 0 468.2V192C0 86 86 0 192 0S384 86 384 192V468.2c0 6.5-5.3 11.8-11.8 11.8c-2.7 0-5.3-.9-7.4-2.6l-31.6-25.3c-3.3-2.7-7.5-4.1-11.8-4.1c-5.9 0-11.5 2.8-15 7.5l-37.6 50.1c-3 4-7.8 6.4-12.8 6.4s-9.8-2.4-12.8-6.4l-38.4-51.2c-3-4-7.8-6.4-12.8-6.4s-9.8 2.4-12.8 6.4l-38.4 51.2c-3 4-7.8 6.4-12.8 6.4s-9.8-2.4-12.8-6.4L77.6 455.5c-3.6-4.7-9.1-7.5-15-7.5c-4.3 0-8.4 1.5-11.7 4.1zM160 192c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm96 32c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"/></svg></span>
+        </span>
+      
+      
+        <span class="text-base font-medium break-normal">
+          Games
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/videos/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Videos"
+      title="AI-Generated Videos">
+      
+        <span class="mr-1">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span>
+        </span>
+      
+      
+        <span class="text-base font-medium break-normal">
+          Videos
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/posts/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Ideas"
+      title="AI-Related Reposts">
+      
+        <span class="mr-1">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
+</span>
+        </span>
+      
+      
+        <span class="text-base font-medium break-normal">
+          Ideas
+        </span>
+      
+    </a>
+  
+
+    
+      
+  
+    <a
+      href="/tags/"
+      
+      class="flex items-center bf-icon-color-hover"
+      aria-label="Tags"
+      title="Tags">
+      
+        <span class="mr-1">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3 418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/></svg>
+</span>
+        </span>
+      
+      
+        <span class="text-base font-medium break-normal">
+          Tags
+        </span>
+      
+    </a>
+  
+
+    
+  
+
+  
+
+  
+
+  
+    <button
+      id="search-button"
+      aria-label="Search"
+      class="text-base bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+    <div class="flex items-center">
+      <button
+        id="appearance-switcher"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base bf-icon-color-hover">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    </div>
+  
+</nav>
+
+
+
+    </div>
+    <div class="flex md:hidden">
+      <div class="flex items-center h-14 gap-4">
+  
+    <button
+      id="search-button-mobile"
+      aria-label="Search"
+      class="flex items-center justify-center bf-icon-color-hover"
+      title="Search (/)">
+      <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+    </button>
+  
+
+  
+    <button
+      id="appearance-switcher-mobile"
+      type="button"
+      aria-label="Dark mode switcher"
+      class="flex items-center justify-center text-neutral-900 hover:text-primary-600 dark:text-neutral-200 dark:hover:text-primary-400">
+      <div class="dark:hidden">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+      </div>
+      <div class="hidden dark:block">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+      </div>
+    </button>
+  
+
+  
+    <input type="checkbox" id="mobile-menu-toggle" autocomplete="off" class="hidden peer">
+    <label for="mobile-menu-toggle" class="flex items-center justify-center cursor-pointer bf-icon-color-hover">
+      <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+    </label>
+
+    <div
+      role="dialog"
+      aria-modal="true"
+      style="scrollbar-gutter: stable;"
+      class="fixed inset-0 z-50 invisible overflow-y-auto px-6 py-20 opacity-0 transition-[opacity,visibility] duration-300 peer-checked:visible peer-checked:opacity-100 bg-neutral-50/97 dark:bg-neutral-900/99
+      bf-scrollbar">
+      <label
+        for="mobile-menu-toggle"
+        class="fixed end-8 top-5 flex items-center justify-center z-50 h-12 w-12 cursor-pointer select-none rounded-full bf-icon-color-hover border bf-border-color bf-border-color-hover bg-neutral-50 dark:bg-neutral-900">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </label>
+      <nav class="mx-auto max-w-md space-y-6">
+        
+  
+    
+    <div class="px-2">
+      <a
+        href="/blog/"
+        aria-label="Blog"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+          <span class="flex items-center justify-center h-8 w-8 text-2xl">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"/></svg>
+</span>
+          </span>
+        
+        <span title="AI-Generated Blog" class="text-2xl font-bold tracking-tight">
+          Blog
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/pic/"
+        aria-label="Pictures"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+          <span class="flex items-center justify-center h-8 w-8 text-2xl">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M0 96C0 60.7 28.7 32 64 32H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM323.8 202.5c-4.5-6.6-11.9-10.5-19.8-10.5s-15.4 3.9-19.8 10.5l-87 127.6L170.7 297c-4.6-5.7-11.5-9-18.7-9s-14.2 3.3-18.7 9l-64 80c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6h96 32H424c8.9 0 17.1-4.9 21.2-12.8s3.6-17.4-1.4-24.7l-120-176zM112 192c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48z"/></svg></span>
+          </span>
+        
+        <span title="AI-Generated Pictures" class="text-2xl font-bold tracking-tight">
+          Pictures
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/music/"
+        aria-label="Music"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+          <span class="flex items-center justify-center h-8 w-8 text-2xl">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<path fill="currentColor" d="M511.1 367.1c0 44.18-42.98 80-95.1 80s-95.1-35.82-95.1-79.1c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32.01 4.898V148.1L192 224l-.0023 208.1C191.1 476.2 149 512 95.1 512S0 476.2 0 432c0-44.18 42.98-79.1 95.1-79.1c11.28 0 21.95 1.92 32 4.898V126.5c0-12.97 10.06-26.63 22.41-30.52l319.1-94.49C472.1 .6615 477.3 0 480 0c17.66 0 31.97 14.34 32 31.99L511.1 367.1z"/></svg></span>
+          </span>
+        
+        <span title="AI-Generated Music" class="text-2xl font-bold tracking-tight">
+          Music
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/game/"
+        aria-label="Games"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+          <span class="flex items-center justify-center h-8 w-8 text-2xl">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+<path fill="currentColor" d="M50.8 452.1L19.2 477.4c-2.1 1.7-4.7 2.6-7.4 2.6C5.3 480 0 474.7 0 468.2V192C0 86 86 0 192 0S384 86 384 192V468.2c0 6.5-5.3 11.8-11.8 11.8c-2.7 0-5.3-.9-7.4-2.6l-31.6-25.3c-3.3-2.7-7.5-4.1-11.8-4.1c-5.9 0-11.5 2.8-15 7.5l-37.6 50.1c-3 4-7.8 6.4-12.8 6.4s-9.8-2.4-12.8-6.4l-38.4-51.2c-3-4-7.8-6.4-12.8-6.4s-9.8 2.4-12.8 6.4l-38.4 51.2c-3 4-7.8 6.4-12.8 6.4s-9.8-2.4-12.8-6.4L77.6 455.5c-3.6-4.7-9.1-7.5-15-7.5c-4.3 0-8.4 1.5-11.7 4.1zM160 192c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zm96 32c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"/></svg></span>
+          </span>
+        
+        <span title="AI-Generated Games" class="text-2xl font-bold tracking-tight">
+          Games
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/videos/"
+        aria-label="Videos"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+          <span class="flex items-center justify-center h-8 w-8 text-2xl">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span>
+          </span>
+        
+        <span title="AI-Generated Videos" class="text-2xl font-bold tracking-tight">
+          Videos
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/posts/"
+        aria-label="Ideas"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+          <span class="flex items-center justify-center h-8 w-8 text-2xl">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
+</span>
+          </span>
+        
+        <span title="AI-Related Reposts" class="text-2xl font-bold tracking-tight">
+          Ideas
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+    
+    <div class="px-2">
+      <a
+        href="/tags/"
+        aria-label="Tags"
+        
+        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        
+          <span class="flex items-center justify-center h-8 w-8 text-2xl">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3 418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5 0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/></svg>
+</span>
+          </span>
+        
+        <span title="Tags" class="text-2xl font-bold tracking-tight">
+          Tags
+        </span>
+        
+      </a>
+
+      
+    </div>
+  
+
+        
+  
+    <div class="flex flex-wrap gap-4 mt-8 pt-8 border-t bf-border-color">
+      
+        <a
+          href="/tags/skills/"
+          aria-label="Skills"
+          class="inline-flex items-center gap-2 px-2 py-2 bf-icon-color-hover rounded-full text-sm">
+          
+          <span title="Skills">Skills</span>
+        </a>
+      
+        <a
+          href="/tags/ai-coding/"
+          aria-label="AI coding"
+          class="inline-flex items-center gap-2 px-2 py-2 bf-icon-color-hover rounded-full text-sm">
+          
+          <span title="AI Coding">AI coding</span>
+        </a>
+      
+        <a
+          href=""
+          
+          class="inline-flex items-center gap-2 px-2 py-2 bf-icon-color-hover rounded-full text-sm">
+          
+          <span title=""></span>
+        </a>
+      
+    </div>
+  
+
+        
+  
+
+      </nav>
+    </div>
+  
+</div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+  <div
+    class="main-menu flex pb-3 flex-col items-end justify-between md:justify-start space-x-3 
+      -mt-[15px]
+    ">
+    <div class="hidden md:flex items-center space-x-5">
+      
+        <a
+          href="/tags/skills/"
+          
+          class="flex items-center bf-icon-color-hover">
+          
+          <span class="text-xs font-light" title="Skills">
+            Skills
+          </span>
+        </a>
+      
+        <a
+          href="/tags/ai-coding/"
+          
+          class="flex items-center bf-icon-color-hover">
+          
+          <span class="text-xs font-light" title="AI Coding">
+            AI coding
+          </span>
+        </a>
+      
+        <a
+          href=""
+          
+          class="flex items-center bf-icon-color-hover">
+          
+          <span class="text-xs font-light" title="">
+            
+          </span>
+        </a>
+      
+    </div>
+  </div>
+
+
+
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        [Repost] Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2026-02-09T00:00:00&#43;00:00">9 February 2026</time>
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/github/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Github
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/google/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Google
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
+
+  
+  
+
+
+
+      </div>
+      
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <p>Reposted from <a href="https://mp.weixin.qq.com/s/BZPV0hTU46W2BghQOYBLWg"  target="_blank" rel="noreferrer">Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则 by ITADN</a></p>
+<blockquote><p>你还在用正则表达式从 LLM 输出里抠 JSON 吗？Google 工程师受不了了，直接开源了 LangExtract——一行 <code>lx.extract()</code> 解决所有结构化提取的痛。</p>
+</blockquote>
+<h2 class="relative group">💢 痛点：LLM 时代最被低估的脏活
+    <div id="-痛点llm-时代最被低估的脏活" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e7%97%9b%e7%82%b9llm-%e6%97%b6%e4%bb%a3%e6%9c%80%e8%a2%ab%e4%bd%8e%e4%bc%b0%e7%9a%84%e8%84%8f%e6%b4%bb" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>2026 年了，大模型的能力早已不是瓶颈。真正的瓶颈是什么？</p>
+<p><strong>是把大模型的输出变成你代码能用的数据。</strong></p>
+<p>想象一下这个场景：你让 GPT 帮你从一份 50 页的财报里提取关键财务数据。模型很聪明，回答得头头是道。但你要的不是一段话——你要的是一个干干净净的 JSON，能直接灌进数据库。</p>
+<p>于是你开始写代码：</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="err">#</span> <span class="err">😭</span> <span class="n">你的日常import</span> <span class="n">re</span><span class="p">,</span> <span class="n">jsonresponse</span> <span class="p">=</span> <span class="n">llm</span><span class="p">.</span><span class="n">generate</span><span class="p">(</span><span class="s2">&#34;从以下文本提取财务数据...&#34;</span><span class="p">)</span><span class="err">#</span> <span class="n">哦不</span><span class="err">，</span><span class="n">模型输出了</span> <span class="err">```</span><span class="n">json</span> <span class="n">包裹的内容text</span> <span class="p">=</span> <span class="n">re</span><span class="p">.</span><span class="n">search</span><span class="p">(</span><span class="n">r</span><span class="err">&#39;```</span><span class="n">json</span><span class="err">\</span><span class="n">s</span><span class="p">*(.*?)</span><span class="err">\</span><span class="n">s</span><span class="p">*</span><span class="err">```&#39;</span><span class="p">,</span> <span class="n">response</span><span class="p">,</span> <span class="n">re</span><span class="p">.</span><span class="n">DOTALL</span><span class="p">)</span><span class="k">if</span> <span class="n">text</span><span class="p">:</span>    <span class="k">try</span><span class="p">:</span>        <span class="k">data</span> <span class="p">=</span> <span class="n">json</span><span class="p">.</span><span class="n">loads</span><span class="p">(</span><span class="n">text</span><span class="p">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>    <span class="n">except</span> <span class="n">json</span><span class="p">.</span><span class="n">JSONDecodeError</span><span class="p">:</span>        <span class="err">#</span> <span class="n">模型偶尔输出不合法</span> <span class="n">JSON</span><span class="err">，</span><span class="n">加个修复逻辑</span><span class="o">..</span><span class="p">.</span>        <span class="k">data</span> <span class="p">=</span> <span class="n">fix_json</span><span class="p">(</span><span class="n">text</span><span class="p">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>  <span class="err">#</span> <span class="n">又是</span> <span class="mi">100</span> <span class="n">行else</span><span class="p">:</span>    <span class="err">#</span> <span class="n">模型没用代码块包裹</span><span class="err">，</span><span class="n">试试直接解析</span><span class="o">..</span><span class="p">.</span>    <span class="k">try</span><span class="p">:</span>        <span class="k">data</span> <span class="p">=</span> <span class="n">json</span><span class="p">.</span><span class="n">loads</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>    <span class="n">except</span><span class="p">:</span>        <span class="err">#</span> <span class="n">算了</span><span class="err">，</span><span class="n">用正则硬扣吧</span><span class="o">..</span><span class="p">.</span> <span class="err">😤</span>        <span class="n">pass</span></span></span></code></pre></div></div>
+<p><strong>这还只是第一步。</strong> 如果文本超过模型的上下文窗口呢？你得自己分块。分块之后不同块的结果怎么合并？怎么去重？提取出来的内容怎么映射回原文位置？</p>
+<p>这套&quot;脏活&quot;，几乎每个用 LLM 做数据提取的开发者都在重复造轮子。</p>
+<p><strong>Google 的工程师终于忍不了了。</strong></p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="图片"
+    src="/posts/Google%20%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E3%80%8C%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A8%E3%80%8D%EF%BC%8C3%20%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0%20500%20%E8%A1%8C%E6%AD%A3%E5%88%99/640.webp"
+    ></figure>
+<p><em>▲ 传统方式 vs LangExtract 对比：一边是无尽的调试深渊，一边是 3 行代码准时下班</em></p>
+<hr>
+
+<h2 class="relative group">🚀 LangExtract：Google 的答案
+    <div id="-langextractgoogle-的答案" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-langextractgoogle-%e7%9a%84%e7%ad%94%e6%a1%88" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>LangExtract</strong> 是 Google 在 2025 年底开源的一个 Python 库，目标很明确：</p>
+<blockquote><p><strong>用最少的代码，从任意文本中提取结构化数据——自动分块、自动并发、自动对齐、自动去重。</strong></p>
+</blockquote><p>项目地址：https://github.com/google/langextract</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="图片"
+    src="/posts/Google%20%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E3%80%8C%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A8%E3%80%8D%EF%BC%8C3%20%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0%20500%20%E8%A1%8C%E6%AD%A3%E5%88%99/640.1.gif"
+    ></figure>
+<p>直接看核心 API，感受一下它的简洁度：</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="k">import</span> <span class="nn">langextract</span> <span class="k">as</span> <span class="n">lxresult</span> <span class="p">=</span> <span class="n">lx</span><span class="p">.</span><span class="n">extract</span><span class="p">(</span>    <span class="s2">&#34;一大段非结构化文本...&#34;</span><span class="p">,</span>    <span class="n">prompt_description</span><span class="p">=</span><span class="s2">&#34;提取所有人物及其职位&#34;</span><span class="p">,</span>    <span class="n">examples</span><span class="p">=[</span><span class="o">..</span><span class="p">.],</span>          <span class="err">#</span> <span class="n">Few</span><span class="p">-</span><span class="n">shot</span> <span class="n">示例</span>    <span class="n">model_id</span><span class="p">=</span><span class="s2">&#34;gemini-2.5-flash&#34;</span><span class="err">#</span> <span class="n">支持</span> <span class="n">Gemini</span><span class="p">/</span><span class="n">GPT</span><span class="p">/</span><span class="n">Ollama</span><span class="p">)</span><span class="n">lx</span><span class="p">.</span><span class="n">visualize</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>  <span class="err">#</span> <span class="n">一行可视化</span></span></span></code></pre></div></div>
+<p><strong>3 行代码，完事了。</strong> 没有正则，没有 JSON 修复，没有手动分块。</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="图片"
+    src="/posts/Google%20%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E3%80%8C%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A8%E3%80%8D%EF%BC%8C3%20%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0%20500%20%E8%A1%8C%E6%AD%A3%E5%88%99/640.2.webp"
+    ></figure>
+<p><em>▲ LangExtract 核心工作流：从原始文本到结构化数据的全自动管线</em></p>
+<hr>
+
+<h2 class="relative group">🧠 它到底解决了什么？5 大核心痛点逐个击破
+    <div id="-它到底解决了什么5-大核心痛点逐个击破" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e5%ae%83%e5%88%b0%e5%ba%95%e8%a7%a3%e5%86%b3%e4%ba%86%e4%bb%80%e4%b9%885-%e5%a4%a7%e6%a0%b8%e5%bf%83%e7%97%9b%e7%82%b9%e9%80%90%e4%b8%aa%e5%87%bb%e7%a0%b4" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h3 class="relative group">痛点 1：长文本分块是个噩梦
+    <div id="痛点-1长文本分块是个噩梦" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%97%9b%e7%82%b9-1%e9%95%bf%e6%96%87%e6%9c%ac%e5%88%86%e5%9d%97%e6%98%af%e4%b8%aa%e5%99%a9%e6%a2%a6" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>你有一份 10 万字的合同，模型上下文窗口只有 8K tokens。怎么办？</p>
+<p>❌ <strong>传统做法：</strong> 手动按字数切分，祈祷切分点不会把一句话劈成两半。</p>
+<p>✅ <strong>LangExtract：</strong> 内置智能分块引擎，基于句子边界分块，支持跨块上下文窗口（<code>context_window_chars</code>），让模型在处理当前块时能&quot;看到&quot;上一块的尾部内容，解决跨块指代问题（比如&quot;她&quot;指的是上一段提到的某个人）。</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="na">result</span> <span class="o">=</span> <span class="s">lx.extract(    超长文本,    context_window_chars=500,  # 跨块上下文重叠 500 字符    max_char_buffer=2000,      # 每块最大 2000 字符    ...)</span></span></span></code></pre></div></div>
+
+<h3 class="relative group">痛点 2：LLM 输出格式不可控
+    <div id="痛点-2llm-输出格式不可控" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%97%9b%e7%82%b9-2llm-%e8%be%93%e5%87%ba%e6%a0%bc%e5%bc%8f%e4%b8%8d%e5%8f%af%e6%8e%a7" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>模型有时候输出 <code>json ...</code> ，有时候直接输出裸 JSON，有时候夹杂废话。传统方案需要你写一堆 Parser。</p>
+<p>✅ <strong>LangExtract：</strong> 内置 <code>Resolver</code> 解析器，自动处理各种输出格式，支持 JSON 和 YAML，还有模糊对齐（<code>fuzzy_alignment</code>）功能——即使模型输出的文本和原文不完全一致，也能正确定位到原文中的位置。</p>
+
+<h3 class="relative group">痛点 3：提取结果无法溯源
+    <div id="痛点-3提取结果无法溯源" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%97%9b%e7%82%b9-3%e6%8f%90%e5%8f%96%e7%bb%93%e6%9e%9c%e6%97%a0%e6%b3%95%e6%ba%af%e6%ba%90" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>你从一篇论文里提取了 20 个实体，但你不知道每个实体是从原文的哪个位置提取的。</p>
+<p>✅ <strong>LangExtract：</strong> 返回的 <code>AnnotatedDocument</code> 对象包含完整的原文映射信息（<code>char_interval</code>），精确到字符级别。配合 <code>lx.visualize()</code>，直接在 Jupyter Notebook 里高亮显示提取结果在原文中的位置。</p>
+
+<h3 class="relative group">痛点 4：处理速度太慢
+    <div id="痛点-4处理速度太慢" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%97%9b%e7%82%b9-4%e5%a4%84%e7%90%86%e9%80%9f%e5%ba%a6%e5%a4%aa%e6%85%a2" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>1000 条文本顺序调用 API，等到天荒地老。</p>
+<p>✅ <strong>LangExtract：</strong> 内置批量并发处理，默认 10 个 worker 并行调用 LLM API。处理大批量数据时，还支持 Gemini Batch API 做离线批处理。</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="na">result</span> <span class="o">=</span> <span class="s">lx.extract(    documents,    batch_length=20,   # 每批 20 个文本块    max_workers=10,    # 10 路并发    ...)</span></span></span></code></pre></div></div>
+
+<h3 class="relative group">痛点 5：切换模型要重写代码
+    <div id="痛点-5切换模型要重写代码" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e7%97%9b%e7%82%b9-5%e5%88%87%e6%8d%a2%e6%a8%a1%e5%9e%8b%e8%a6%81%e9%87%8d%e5%86%99%e4%bb%a3%e7%a0%81" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>今天用 Gemini，明天想试试 GPT-4，后天又想跑个本地 Ollama。每个模型 API 不一样，代码改到吐。</p>
+<p>✅ <strong>LangExtract：</strong> 统一的 Provider 抽象层，切换模型只需改一个参数：</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="o">#</span><span class="w"> </span><span class="err">用</span><span class="w"> </span><span class="n">Google</span><span class="w"> </span><span class="n">Geminilx</span><span class="p">.</span><span class="k">extract</span><span class="p">(...,</span><span class="w"> </span><span class="n">model_id</span><span class="o">=</span><span class="s2">&#34;gemini-2.5-flash&#34;</span><span class="p">)</span><span class="o">#</span><span class="w"> </span><span class="err">切换到</span><span class="w"> </span><span class="n">OpenAIlx</span><span class="p">.</span><span class="k">extract</span><span class="p">(...,</span><span class="w"> </span><span class="n">model_id</span><span class="o">=</span><span class="s2">&#34;gpt-4o&#34;</span><span class="p">)</span><span class="o">#</span><span class="w"> </span><span class="err">用本地</span><span class="w"> </span><span class="n">Ollamalx</span><span class="p">.</span><span class="k">extract</span><span class="p">(...,</span><span class="w"> </span><span class="n">model_id</span><span class="o">=</span><span class="s2">&#34;llama3&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">model_url</span><span class="o">=</span><span class="s2">&#34;http://localhost:11434&#34;</span><span class="p">)</span></span></span></code></pre></div></div>
+<p>而且支持<strong>插件机制</strong>——第三方可以通过 Python <code>entry_points</code> 注册自定义 Provider，<code>pip install</code> 后自动可用，零配置。</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="图片"
+    src="/posts/Google%20%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E3%80%8C%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A8%E3%80%8D%EF%BC%8C3%20%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0%20500%20%E8%A1%8C%E6%AD%A3%E5%88%99/640.3.webp"
+    ></figure>
+<p><em>▲ 并发处理流程：自动分块 → 多路并发调 LLM → 解析合并 → 返回结果</em></p>
+<hr>
+
+<h2 class="relative group">🏗️ 架构设计：分层解耦的正确示范
+    <div id="-架构设计分层解耦的正确示范" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e6%9e%b6%e6%9e%84%e8%ae%be%e8%ae%a1%e5%88%86%e5%b1%82%e8%a7%a3%e8%80%a6%e7%9a%84%e6%ad%a3%e7%a1%ae%e7%a4%ba%e8%8c%83" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>LangExtract 的代码架构非常优雅，值得学习：</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="err">🎯</span> <span class="nt">用户</span> <span class="nt">API</span> <span class="nt">层</span><span class="err">├──</span> <span class="nt">lx</span><span class="nc">.extract</span><span class="o">()</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">主入口</span><span class="err">└──</span> <span class="nt">lx</span><span class="nc">.visualize</span><span class="o">()</span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">可视化</span><span class="err">⚙</span><span class="nt">️</span> <span class="nt">处理管线层</span><span class="err">├──</span> <span class="nt">Chunking</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">智能分块</span><span class="err">├──</span> <span class="nt">Prompting</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> ←</span> <span class="nt">Few-shot</span> <span class="nt">提示词构建</span><span class="err">├──</span> <span class="nt">Annotation</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">标注引擎</span><span class="err">（</span><span class="nt">并发调度</span><span class="err">）└──</span> <span class="nt">Resolver</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">结果解析</span> <span class="o">+</span> <span class="nt">模糊对齐</span><span class="err">🔌</span> <span class="nt">提供者层</span><span class="err">（</span><span class="nt">可扩展</span><span class="err">）├──</span> <span class="nt">Gemini</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">Google</span> <span class="nt">AI</span><span class="err">├──</span> <span class="nt">OpenAI</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">GPT</span> <span class="nt">系列</span><span class="err">├──</span> <span class="nt">Ollama</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">本地推理</span><span class="err">└──</span> <span class="nt">Plugin</span> <span class="nt">System</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> ←</span> <span class="nt">第三方扩展</span><span class="err">🏗</span><span class="nt">️</span> <span class="nt">核心层</span><span class="err">├──</span> <span class="nt">BaseLanguageModel</span> <span class="err"> ←</span> <span class="nt">模型接口</span><span class="err">├──</span> <span class="nt">Data</span> <span class="nt">Types</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err">←</span> <span class="nt">Schema</span> <span class="o">+</span> <span class="nt">数据类型</span><span class="err">└──</span> <span class="nt">Tokenizer</span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> </span> <span class="err"> ←</span> <span class="nt">分词器</span></span></span></code></pre></div></div>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="图片"
+    src="/posts/Google%20%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E3%80%8C%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A8%E3%80%8D%EF%BC%8C3%20%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0%20500%20%E8%A1%8C%E6%AD%A3%E5%88%99/640.4.webp"
+    ></figure>
+<p><em>▲ 分层架构图：严格的单向依赖，上层依赖下层，绝不反向</em></p>
+<p>几个设计亮点：</p>
+<ol>
+<li>
+<p><strong>严格的依赖方向</strong>：Core 层不依赖 Providers，Providers 不依赖 Annotation。通过 <code>import-linter</code> 在 CI 中强制执行。</p>
+</li>
+<li>
+<p><strong>注册表模式</strong>：模型 ID 通过正则匹配自动路由到对应 Provider，用户无需关心底层实现。</p>
+</li>
+<li>
+<p><strong>PEP 562 懒加载</strong>：<code>import langextract</code> 时不会立即加载所有子模块，首次访问时才加载，启动快。</p>
+</li>
+</ol>
+<hr>
+
+<h2 class="relative group">🔥 实战场景：它能干什么？
+    <div id="-实战场景它能干什么" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e5%ae%9e%e6%88%98%e5%9c%ba%e6%99%af%e5%ae%83%e8%83%bd%e5%b9%b2%e4%bb%80%e4%b9%88" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<table>
+  <thead>
+      <tr>
+          <th>场景</th>
+          <th>传统做法</th>
+          <th>LangExtract</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>从新闻中提取人物和事件</td>
+          <td>写 NER + 关系抽取模型</td>
+          <td>3 行代码</td>
+      </tr>
+      <tr>
+          <td>解析简历提取教育经历和工作经验</td>
+          <td>正则 + 模板匹配</td>
+          <td>3 行代码</td>
+      </tr>
+      <tr>
+          <td>从合同中提取关键条款</td>
+          <td>法律 NLP 专用模型</td>
+          <td>3 行代码</td>
+      </tr>
+      <tr>
+          <td>医疗报告结构化</td>
+          <td>领域专用标注 + 训练</td>
+          <td>3 行代码</td>
+      </tr>
+      <tr>
+          <td>从论文中提取方法论和结果</td>
+          <td>手动整理</td>
+          <td>3 行代码</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>共同点：你只需要告诉模型&quot;提取什么&quot;、给几个示例，剩下的交给 LangExtract。</strong></p>
+<hr>
+
+<h2 class="relative group">📝 快速上手
+    <div id="-快速上手" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e5%bf%ab%e9%80%9f%e4%b8%8a%e6%89%8b" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h3 class="relative group">安装
+    <div id="安装" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%ae%89%e8%a3%85" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">langextract</span><span class="err">#</span> <span class="err">如果要用</span> <span class="n">OpenAIpip</span> <span class="n">install</span> <span class="n">langextract</span><span class="p">[</span><span class="n">openai</span><span class="p">]</span><span class="err">#</span> <span class="err">如果要用本地</span> <span class="n">Ollama</span><span class="err">#</span> <span class="err">确保</span> <span class="n">Ollama</span> <span class="err">服务已运行</span></span></span></code></pre></div></div>
+
+<h3 class="relative group">完整示例
+    <div id="完整示例" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%ae%8c%e6%95%b4%e7%a4%ba%e4%be%8b" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="k">import</span> <span class="nn">langextract</span> <span class="k">as</span> <span class="n">lxfrom</span> <span class="n">langextract</span><span class="p">.</span><span class="n">core</span><span class="p">.</span><span class="k">data</span> <span class="k">import</span> <span class="nn">ExampleData#</span> <span class="n">定义示例</span><span class="err">（</span><span class="n">告诉模型你要什么格式</span><span class="err">）</span><span class="n">examples</span> <span class="p">=</span> <span class="p">[</span>    <span class="n">ExampleData</span><span class="p">(</span>        <span class="n">text</span><span class="p">=</span><span class="s2">&#34;张三是腾讯的高级工程师，在深圳工作。&#34;</span><span class="p">,</span>        <span class="n">extractions</span><span class="p">=[{</span>            <span class="s2">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;张三&#34;</span><span class="p">,</span>            <span class="s2">&#34;company&#34;</span><span class="p">:</span> <span class="s2">&#34;腾讯&#34;</span><span class="p">,</span>            <span class="s2">&#34;title&#34;</span><span class="p">:</span> <span class="s2">&#34;高级工程师&#34;</span><span class="p">,</span>            <span class="s2">&#34;location&#34;</span><span class="p">:</span> <span class="s2">&#34;深圳&#34;</span>        <span class="p">}]</span>    <span class="p">)]</span><span class="err">#</span> <span class="n">一行提取result</span> <span class="p">=</span> <span class="n">lx</span><span class="p">.</span><span class="n">extract</span><span class="p">(</span>    <span class="s2">&#34;李四于 2024 年加入阿里巴巴，担任算法专家，base 杭州。&#34;</span>    <span class="s2">&#34;王五是字节跳动的产品经理，常驻北京。&#34;</span><span class="p">,</span>    <span class="n">prompt_description</span><span class="p">=</span><span class="s2">&#34;从文本中提取人物的姓名、公司、职位和工作地点&#34;</span><span class="p">,</span>    <span class="n">examples</span><span class="p">=</span><span class="n">examples</span><span class="p">,</span>    <span class="n">model_id</span><span class="p">=</span><span class="s2">&#34;gemini-2.5-flash&#34;</span><span class="p">)</span><span class="err">#</span> <span class="n">可视化结果lx</span><span class="p">.</span><span class="n">visualize</span><span class="p">(</span><span class="n">result</span><span class="p">)</span></span></span></code></pre></div></div>
+<hr>
+
+<h2 class="relative group">🤔 和 Instructor / LangChain 有什么区别？
+    <div id="-和-instructor--langchain-有什么区别" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e5%92%8c-instructor--langchain-%e6%9c%89%e4%bb%80%e4%b9%88%e5%8c%ba%e5%88%ab" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>你可能会问：这不是和 <code>instructor</code> 或 LangChain 的结构化输出差不多吗？</p>
+<p><strong>区别很大：</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>特性</th>
+          <th>LangExtract</th>
+          <th>Instructor</th>
+          <th>LangChain</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>长文本自动分块</td>
+          <td>✅ 内置</td>
+          <td>❌ 自己写</td>
+          <td>❌ 自己写</td>
+      </tr>
+      <tr>
+          <td>跨块上下文窗口</td>
+          <td>✅ 内置</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>提取结果溯源</td>
+          <td>✅ 字符级定位</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>结果可视化</td>
+          <td>✅ 内置</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>模糊文本对齐</td>
+          <td>✅ 内置</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>多轮提取去重</td>
+          <td>✅ extraction_passes</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>批量并发</td>
+          <td>✅ 内置</td>
+          <td>❌</td>
+          <td>需额外配置</td>
+      </tr>
+  </tbody>
+</table>
+<p>简单说：<strong>Instructor 解决的是&quot;让 LLM 输出结构化数据&quot;这一个点，LangExtract 解决的是从非结构化文本到结构化数据的完整管线。</strong></p>
+<hr>
+
+<h2 class="relative group">💡 值得关注的技术细节
+    <div id="-值得关注的技术细节" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e5%80%bc%e5%be%97%e5%85%b3%e6%b3%a8%e7%9a%84%e6%8a%80%e6%9c%af%e7%bb%86%e8%8a%82" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h3 class="relative group">多轮提取（Multi-pass Extraction）
+    <div id="多轮提取multi-pass-extraction" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e5%a4%9a%e8%bd%ae%e6%8f%90%e5%8f%96multi-pass-extraction" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>对于信息密度很高的文本，单次提取可能遗漏。LangExtract 支持多轮提取：</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="na">result</span> <span class="o">=</span> <span class="s">lx.extract(    dense_text,    extraction_passes=3,  # 提取 3 轮，自动合并去重    ...)</span></span></span></code></pre></div></div>
+<p>每轮独立提取，最后自动合并，先提取到的结果优先（first-pass wins），重叠部分自动去重。</p>
+
+<h3 class="relative group">URL 自动下载
+    <div id="url-自动下载" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#url-%e8%87%aa%e5%8a%a8%e4%b8%8b%e8%bd%bd" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="o">#</span><span class="w"> </span><span class="err">直接传</span><span class="w"> </span><span class="n">URL</span><span class="err">，自动下载网页内容并提取</span><span class="k">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lx</span><span class="p">.</span><span class="k">extract</span><span class="p">(</span><span class="w">    </span><span class="s2">&#34;https://example.com/article&#34;</span><span class="p">,</span><span class="w">    </span><span class="p">...)</span></span></span></code></pre></div></div>
+
+<h3 class="relative group">Prompt 验证
+    <div id="prompt-验证" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#prompt-%e9%aa%8c%e8%af%81" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>提供了 Few-shot 示例的自动验证机制，在提取之前就检查你的示例是否和文本对齐，提前发现问题：</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="na">result</span> <span class="o">=</span> <span class="s">lx.extract(    ...,    prompt_validation_level=&#34;ERROR&#34;,  # 示例不对齐直接报错    prompt_validation_strict=True,)</span></span></span></code></pre></div></div>
+<hr>
+
+<h2 class="relative group">📊 项目数据
+    <div id="-项目数据" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e9%a1%b9%e7%9b%ae%e6%95%b0%e6%8d%ae" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>
+<p><strong>GitHub Stars：</strong> 快速增长中 ⭐</p>
+</li>
+<li>
+<p><strong>版本：</strong> v1.1.1（活跃维护）</p>
+</li>
+<li>
+<p><strong>许可证：</strong> Apache 2.0（商用友好）</p>
+</li>
+<li>
+<p><strong>Python：</strong> ≥ 3.10</p>
+</li>
+<li>
+<p><strong>DOI：</strong> 10.5281/zenodo.17015089（可学术引用）</p>
+</li>
+<li>
+<p><strong>代码质量：</strong> 完整测试套件 + import-linter 依赖检查 + 类型注解</p>
+</li>
+</ul>
+<hr>
+
+<h2 class="relative group">🎯 总结
+    <div id="-总结" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%e6%80%bb%e7%bb%93" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>LangExtract 不是又一个 LLM wrapper。它解决的是一个非常具体且普遍的痛点：</p>
+<blockquote><p><strong>如何从大规模非结构化文本中，可靠地、可追溯地、高效地提取结构化数据。</strong></p>
+</blockquote><p>在 LLM 时代，这个问题几乎每个做数据处理的团队都会遇到。Google 用一个设计优雅的开源工具给出了标准答案。</p>
+<p>如果你的工作涉及到：</p>
+<ul>
+<li>
+<p>📄 <strong>文档解析</strong>（合同、财报、简历）</p>
+</li>
+<li>
+<p>🏥 <strong>医疗 NLP</strong>（病历结构化、药品信息提取）</p>
+</li>
+<li>
+<p>📰 <strong>信息抽取</strong>（新闻、社交媒体、研究论文）</p>
+</li>
+<li>
+<p>🏗️ <strong>数据管线</strong>（ETL 中的非结构化数据处理）</p>
+</li>
+</ul>
+<p><strong>强烈建议收藏这个项目。</strong></p>
+<p>👉 GitHub：https://github.com/google/langextract</p>
+<hr>
+<p><em>如果觉得有用，点个「在看」转发给你还在写正则的同事吧 😏</em></p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+
+        
+
+      </div>
+
+      
+      
+        
+        
+          
+          
+        
+        
+        
+        <script
+          type="text/javascript"
+          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_posts/Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则.md"
+          data-oid-likes="likes_posts/Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则.md"></script>
+      
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
+          
+            <a
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/posts/%E5%85%A8%E7%BD%91%E6%9C%80%E8%AF%A6%E7%BB%86%E7%9A%84codex%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%8E%A9%E8%BD%ACvibe-coding/">
+              <span class="leading-6">
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;[Repost] 全网最详细的Codex入门教程，手把手教你玩转Vibe Coding。
+              </span>
+            </a>
+            
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-02-09T00:00:00&#43;00:00">9 February 2026</time>
+              </span>
+            
+          
+        </span>
+        <span class="flex flex-col items-end">
+          
+            <a
+              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/posts/anthropic%E5%91%98%E5%B7%A5%E6%95%88%E7%8E%87%E7%A2%BE%E5%8E%8B%E8%B0%B7%E6%AD%8C1000%E5%80%8D%E6%89%93%E5%B7%A5%E4%BA%BA%E6%83%B3%E8%BF%9B%E5%BF%85%E9%A1%BB%E5%85%88%E6%9D%80%E6%AD%BB%E8%87%AA%E6%88%91/">
+              <span class="leading-6">
+                [Repost] Anthropic员工效率碾压谷歌1000倍！打工人想进，必须先「杀死自我」&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+              </span>
+            </a>
+            
+              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-02-09T00:00:00&#43;00:00">9 February 2026</time>
+              </span>
+            
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+
+
+  
+
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2026
+          Neon Sphinx
+      </p>
+    
+
+    
+    
+  </div>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
+    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="https://neon-sphinx.github.io/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+  
+</html>
