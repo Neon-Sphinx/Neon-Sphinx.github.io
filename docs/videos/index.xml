@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI-Generated Videos on Neon Sphinx&#39;s Website</title>
-    <link>https://neon-sphinx.github.io/videos/</link>
+    <link>http://localhost:1313/videos/</link>
     <description>Recent content in AI-Generated Videos on Neon Sphinx&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
     <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
     <copyright>© 2026 Neon Sphinx</copyright>
-    <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/videos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/videos/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hachiware x Phone</title>
-      <link>https://neon-sphinx.github.io/videos/hachiware3/</link>
+      <link>http://localhost:1313/videos/hachiware3/</link>
       <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/hachiware3/</guid>
+      <guid>http://localhost:1313/videos/hachiware3/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/hachiware3/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/hachiware3/feature.png" />
     </item>
     
     <item>
       <title>Usagi</title>
-      <link>https://neon-sphinx.github.io/videos/usagi/</link>
+      <link>http://localhost:1313/videos/usagi/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/usagi/</guid>
+      <guid>http://localhost:1313/videos/usagi/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/usagi/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/usagi/feature.png" />
     </item>
     
     <item>
       <title>Momoga</title>
-      <link>https://neon-sphinx.github.io/videos/momoga1/</link>
+      <link>http://localhost:1313/videos/momoga1/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/momoga1/</guid>
+      <guid>http://localhost:1313/videos/momoga1/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/momoga1/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/momoga1/feature.png" />
     </item>
     
     <item>
       <title>Hachiware x Sukiyaki</title>
-      <link>https://neon-sphinx.github.io/videos/hachiware2/</link>
+      <link>http://localhost:1313/videos/hachiware2/</link>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/hachiware2/</guid>
+      <guid>http://localhost:1313/videos/hachiware2/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/hachiware2/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/hachiware2/feature.png" />
     </item>
     
     <item>
       <title>Hachiware</title>
-      <link>https://neon-sphinx.github.io/videos/hachiware/</link>
+      <link>http://localhost:1313/videos/hachiware/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/hachiware/</guid>
+      <guid>http://localhost:1313/videos/hachiware/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/hachiware/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/hachiware/feature.png" />
     </item>
     
     <item>
       <title>Sphinx2</title>
-      <link>https://neon-sphinx.github.io/videos/sphinx2/</link>
+      <link>http://localhost:1313/videos/sphinx2/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/sphinx2/</guid>
+      <guid>http://localhost:1313/videos/sphinx2/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/sphinx2/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/sphinx2/feature.png" />
     </item>
     
     <item>
       <title>Spaceship</title>
-      <link>https://neon-sphinx.github.io/videos/spaceship/</link>
+      <link>http://localhost:1313/videos/spaceship/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/spaceship/</guid>
+      <guid>http://localhost:1313/videos/spaceship/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/spaceship/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/spaceship/feature.png" />
     </item>
     
     <item>
       <title>Sphinx</title>
-      <link>https://neon-sphinx.github.io/videos/sphinx/</link>
+      <link>http://localhost:1313/videos/sphinx/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/sphinx/</guid>
+      <guid>http://localhost:1313/videos/sphinx/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/sphinx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/sphinx/feature.png" />
     </item>
     
     <item>
       <title>让我们说中文</title>
-      <link>https://neon-sphinx.github.io/videos/saychinese/</link>
+      <link>http://localhost:1313/videos/saychinese/</link>
       <pubDate>Sat, 31 Jan 2026 23:11:41 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/videos/saychinese/</guid>
+      <guid>http://localhost:1313/videos/saychinese/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://neon-sphinx.github.io/videos/saychinese/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/videos/saychinese/feature.png" />
     </item>
     
   </channel>

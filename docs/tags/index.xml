@@ -2,331 +2,331 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Neon Sphinx&#39;s Website</title>
-    <link>https://neon-sphinx.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Neon Sphinx&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
     <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
     <copyright>© 2026 Neon Sphinx</copyright>
-    <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AI Video</title>
-      <link>https://neon-sphinx.github.io/tags/ai-video/</link>
+      <link>http://localhost:1313/tags/ai-video/</link>
       <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/ai-video/</guid>
+      <guid>http://localhost:1313/tags/ai-video/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Deep Think</title>
-      <link>https://neon-sphinx.github.io/tags/deep-think/</link>
+      <link>http://localhost:1313/tags/deep-think/</link>
       <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/deep-think/</guid>
+      <guid>http://localhost:1313/tags/deep-think/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Gemini</title>
-      <link>https://neon-sphinx.github.io/tags/gemini/</link>
+      <link>http://localhost:1313/tags/gemini/</link>
       <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/gemini/</guid>
+      <guid>http://localhost:1313/tags/gemini/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI Agent</title>
-      <link>https://neon-sphinx.github.io/tags/ai-agent/</link>
+      <link>http://localhost:1313/tags/ai-agent/</link>
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/ai-agent/</guid>
+      <guid>http://localhost:1313/tags/ai-agent/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI Coding</title>
-      <link>https://neon-sphinx.github.io/tags/ai-coding/</link>
+      <link>http://localhost:1313/tags/ai-coding/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/ai-coding/</guid>
+      <guid>http://localhost:1313/tags/ai-coding/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Opinions</title>
-      <link>https://neon-sphinx.github.io/tags/opinions/</link>
+      <link>http://localhost:1313/tags/opinions/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/opinions/</guid>
+      <guid>http://localhost:1313/tags/opinions/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Github</title>
-      <link>https://neon-sphinx.github.io/tags/github/</link>
+      <link>http://localhost:1313/tags/github/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/github/</guid>
+      <guid>http://localhost:1313/tags/github/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LLM</title>
-      <link>https://neon-sphinx.github.io/tags/llm/</link>
+      <link>http://localhost:1313/tags/llm/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/llm/</guid>
+      <guid>http://localhost:1313/tags/llm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Google</title>
-      <link>https://neon-sphinx.github.io/tags/google/</link>
+      <link>http://localhost:1313/tags/google/</link>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/google/</guid>
+      <guid>http://localhost:1313/tags/google/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Management</title>
-      <link>https://neon-sphinx.github.io/tags/management/</link>
+      <link>http://localhost:1313/tags/management/</link>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/management/</guid>
+      <guid>http://localhost:1313/tags/management/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI Image</title>
-      <link>https://neon-sphinx.github.io/tags/ai-image/</link>
+      <link>http://localhost:1313/tags/ai-image/</link>
       <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/ai-image/</guid>
+      <guid>http://localhost:1313/tags/ai-image/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI Music</title>
-      <link>https://neon-sphinx.github.io/tags/ai-music/</link>
+      <link>http://localhost:1313/tags/ai-music/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/ai-music/</guid>
+      <guid>http://localhost:1313/tags/ai-music/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI Game</title>
-      <link>https://neon-sphinx.github.io/tags/ai-game/</link>
+      <link>http://localhost:1313/tags/ai-game/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/ai-game/</guid>
+      <guid>http://localhost:1313/tags/ai-game/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Dan Koe</title>
-      <link>https://neon-sphinx.github.io/tags/dan-koe/</link>
+      <link>http://localhost:1313/tags/dan-koe/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/dan-koe/</guid>
+      <guid>http://localhost:1313/tags/dan-koe/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Skills</title>
-      <link>https://neon-sphinx.github.io/tags/skills/</link>
+      <link>http://localhost:1313/tags/skills/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/skills/</guid>
+      <guid>http://localhost:1313/tags/skills/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Workflow</title>
-      <link>https://neon-sphinx.github.io/tags/workflow/</link>
+      <link>http://localhost:1313/tags/workflow/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/workflow/</guid>
+      <guid>http://localhost:1313/tags/workflow/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI UI</title>
-      <link>https://neon-sphinx.github.io/tags/ai-ui/</link>
+      <link>http://localhost:1313/tags/ai-ui/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/ai-ui/</guid>
+      <guid>http://localhost:1313/tags/ai-ui/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Science</title>
-      <link>https://neon-sphinx.github.io/tags/science/</link>
+      <link>http://localhost:1313/tags/science/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/science/</guid>
+      <guid>http://localhost:1313/tags/science/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Education</title>
-      <link>https://neon-sphinx.github.io/tags/education/</link>
+      <link>http://localhost:1313/tags/education/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/education/</guid>
+      <guid>http://localhost:1313/tags/education/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Prompt</title>
-      <link>https://neon-sphinx.github.io/tags/prompt/</link>
+      <link>http://localhost:1313/tags/prompt/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/prompt/</guid>
+      <guid>http://localhost:1313/tags/prompt/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Agency</title>
-      <link>https://neon-sphinx.github.io/tags/agency/</link>
+      <link>http://localhost:1313/tags/agency/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/agency/</guid>
+      <guid>http://localhost:1313/tags/agency/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Agent</title>
-      <link>https://neon-sphinx.github.io/tags/agent/</link>
+      <link>http://localhost:1313/tags/agent/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/agent/</guid>
+      <guid>http://localhost:1313/tags/agent/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Video</title>
-      <link>https://neon-sphinx.github.io/tags/video/</link>
+      <link>http://localhost:1313/tags/video/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/video/</guid>
+      <guid>http://localhost:1313/tags/video/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Writing</title>
-      <link>https://neon-sphinx.github.io/tags/writing/</link>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LaTeX</title>
-      <link>https://neon-sphinx.github.io/tags/latex/</link>
+      <link>http://localhost:1313/tags/latex/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/latex/</guid>
+      <guid>http://localhost:1313/tags/latex/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Prism</title>
-      <link>https://neon-sphinx.github.io/tags/prism/</link>
+      <link>http://localhost:1313/tags/prism/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/prism/</guid>
+      <guid>http://localhost:1313/tags/prism/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Solopreneur</title>
-      <link>https://neon-sphinx.github.io/tags/solopreneur/</link>
+      <link>http://localhost:1313/tags/solopreneur/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/solopreneur/</guid>
+      <guid>http://localhost:1313/tags/solopreneur/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>NotebookLM</title>
-      <link>https://neon-sphinx.github.io/tags/notebooklm/</link>
+      <link>http://localhost:1313/tags/notebooklm/</link>
       <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/notebooklm/</guid>
+      <guid>http://localhost:1313/tags/notebooklm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Opinion</title>
-      <link>https://neon-sphinx.github.io/tags/opinion/</link>
+      <link>http://localhost:1313/tags/opinion/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/opinion/</guid>
+      <guid>http://localhost:1313/tags/opinion/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>AI Code</title>
-      <link>https://neon-sphinx.github.io/tags/ai-code/</link>
+      <link>http://localhost:1313/tags/ai-code/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/ai-code/</guid>
+      <guid>http://localhost:1313/tags/ai-code/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nano Banana</title>
-      <link>https://neon-sphinx.github.io/tags/nano-banana/</link>
+      <link>http://localhost:1313/tags/nano-banana/</link>
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/nano-banana/</guid>
+      <guid>http://localhost:1313/tags/nano-banana/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Antigravity</title>
-      <link>https://neon-sphinx.github.io/tags/antigravity/</link>
+      <link>http://localhost:1313/tags/antigravity/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>https://neon-sphinx.github.io/tags/antigravity/</guid>
+      <guid>http://localhost:1313/tags/antigravity/</guid>
       <description></description>
       
     </item>
