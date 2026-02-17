@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on Neon Sphinx&#39;s Website</title>
-    <link>http://localhost:1313/tags/google/</link>
+    <link>https://neon-sphinx.github.io/tags/google/</link>
     <description>Recent content in Google on Neon Sphinx&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
     <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
     <copyright>© 2026 Neon Sphinx</copyright>
-    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/tags/google/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>[Repost] Google 悄悄开源了一个「数据提取神器」，3 行代码干掉你 500 行正则</title>
-      <link>http://localhost:1313/posts/google-%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A83-%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0-500-%E8%A1%8C%E6%AD%A3%E5%88%99/</link>
+      <link>https://neon-sphinx.github.io/posts/google-%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A83-%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0-500-%E8%A1%8C%E6%AD%A3%E5%88%99/</link>
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>http://localhost:1313/posts/google-%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A83-%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0-500-%E8%A1%8C%E6%AD%A3%E5%88%99/</guid>
+      <guid>https://neon-sphinx.github.io/posts/google-%E6%82%84%E6%82%84%E5%BC%80%E6%BA%90%E4%BA%86%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E6%8F%90%E5%8F%96%E7%A5%9E%E5%99%A83-%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%B9%B2%E6%8E%89%E4%BD%A0-500-%E8%A1%8C%E6%AD%A3%E5%88%99/</guid>
       <description></description>
       
     </item>

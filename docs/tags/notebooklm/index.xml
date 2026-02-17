@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NotebookLM on Neon Sphinx&#39;s Website</title>
-    <link>http://localhost:1313/tags/notebooklm/</link>
+    <link>https://neon-sphinx.github.io/tags/notebooklm/</link>
     <description>Recent content in NotebookLM on Neon Sphinx&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
     <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
     <copyright>© 2026 Neon Sphinx</copyright>
-    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/notebooklm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/tags/notebooklm/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>[Repost] 如何用Gemini&#43;NotebookLM暴力吞噬全球顶级认知？把3小时的学习压缩进10分钟（附全套SOP）</title>
-      <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E7%94%A8geminiplusnotebooklm%E6%9A%B4%E5%8A%9B%E5%90%9E%E5%99%AC%E5%85%A8%E7%90%83%E9%A1%B6%E7%BA%A7%E8%AE%A4%E7%9F%A5%E6%8A%8A3%E5%B0%8F%E6%97%B6/</link>
+      <link>https://neon-sphinx.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8geminiplusnotebooklm%E6%9A%B4%E5%8A%9B%E5%90%9E%E5%99%AC%E5%85%A8%E7%90%83%E9%A1%B6%E7%BA%A7%E8%AE%A4%E7%9F%A5%E6%8A%8A3%E5%B0%8F%E6%97%B6/</link>
       <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E7%94%A8geminiplusnotebooklm%E6%9A%B4%E5%8A%9B%E5%90%9E%E5%99%AC%E5%85%A8%E7%90%83%E9%A1%B6%E7%BA%A7%E8%AE%A4%E7%9F%A5%E6%8A%8A3%E5%B0%8F%E6%97%B6/</guid>
+      <guid>https://neon-sphinx.github.io/posts/%E5%A6%82%E4%BD%95%E7%94%A8geminiplusnotebooklm%E6%9A%B4%E5%8A%9B%E5%90%9E%E5%99%AC%E5%85%A8%E7%90%83%E9%A1%B6%E7%BA%A7%E8%AE%A4%E7%9F%A5%E6%8A%8A3%E5%B0%8F%E6%97%B6/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>[Repost] NotebookLM终极神器来了！这个命令行工具，能让AI自动处理海量文档</title>
-      <link>http://localhost:1313/posts/notebooklm%E7%BB%88%E6%9E%81%E7%A5%9E%E5%99%A8%E6%9D%A5%E4%BA%86%E8%BF%99%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E8%83%BD%E8%AE%A9ai%E8%87%AA%E5%8A%A8%E5%A4%84%E7%90%86%E6%B5%B7%E9%87%8F/</link>
+      <link>https://neon-sphinx.github.io/posts/notebooklm%E7%BB%88%E6%9E%81%E7%A5%9E%E5%99%A8%E6%9D%A5%E4%BA%86%E8%BF%99%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E8%83%BD%E8%AE%A9ai%E8%87%AA%E5%8A%A8%E5%A4%84%E7%90%86%E6%B5%B7%E9%87%8F/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>http://localhost:1313/posts/notebooklm%E7%BB%88%E6%9E%81%E7%A5%9E%E5%99%A8%E6%9D%A5%E4%BA%86%E8%BF%99%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E8%83%BD%E8%AE%A9ai%E8%87%AA%E5%8A%A8%E5%A4%84%E7%90%86%E6%B5%B7%E9%87%8F/</guid>
+      <guid>https://neon-sphinx.github.io/posts/notebooklm%E7%BB%88%E6%9E%81%E7%A5%9E%E5%99%A8%E6%9D%A5%E4%BA%86%E8%BF%99%E4%B8%AA%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E8%83%BD%E8%AE%A9ai%E8%87%AA%E5%8A%A8%E5%A4%84%E7%90%86%E6%B5%B7%E9%87%8F/</guid>
       <description></description>
       
     </item>

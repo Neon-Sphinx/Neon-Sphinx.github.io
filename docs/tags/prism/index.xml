@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prism on Neon Sphinx&#39;s Website</title>
-    <link>http://localhost:1313/tags/prism/</link>
+    <link>https://neon-sphinx.github.io/tags/prism/</link>
     <description>Recent content in Prism on Neon Sphinx&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>yangshijie2002@hotmail.com (Neon Sphinx)</managingEditor>
     <webMaster>yangshijie2002@hotmail.com (Neon Sphinx)</webMaster>
     <copyright>© 2026 Neon Sphinx</copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/prism/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://neon-sphinx.github.io/tags/prism/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>[Repost] Prism使用初感</title>
-      <link>http://localhost:1313/posts/prism%E4%BD%BF%E7%94%A8%E5%88%9D%E6%84%9F/</link>
+      <link>https://neon-sphinx.github.io/posts/prism%E4%BD%BF%E7%94%A8%E5%88%9D%E6%84%9F/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>http://localhost:1313/posts/prism%E4%BD%BF%E7%94%A8%E5%88%9D%E6%84%9F/</guid>
+      <guid>https://neon-sphinx.github.io/posts/prism%E4%BD%BF%E7%94%A8%E5%88%9D%E6%84%9F/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>[Repost] 实测 Prism：OpenAI 的论文写作工具，完全免费</title>
-      <link>http://localhost:1313/posts/%E5%AE%9E%E6%B5%8B-prismopenai-%E7%9A%84%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9/</link>
+      <link>https://neon-sphinx.github.io/posts/%E5%AE%9E%E6%B5%8B-prismopenai-%E7%9A%84%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
       <author>yangshijie2002@hotmail.com (Neon Sphinx)</author>
-      <guid>http://localhost:1313/posts/%E5%AE%9E%E6%B5%8B-prismopenai-%E7%9A%84%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9/</guid>
+      <guid>https://neon-sphinx.github.io/posts/%E5%AE%9E%E6%B5%8B-prismopenai-%E7%9A%84%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9/</guid>
       <description></description>
       
     </item>
